@@ -1,4 +1,4 @@
-"%% SiSU Vim color file
+" SiSU Vim color file
 " Obsidian Maintainer: Trevor John <trevorrjohn@gmail.com>
 :set background=dark
 :highlight clear
@@ -20,7 +20,7 @@ let colors_name = "obsidian"
 :hi MoreMsg guifg=SeaGreen ctermfg=darkgreen
 :hi NonText guifg=RoyalBlue guibg=grey15 cterm=bold ctermfg=blue
 :hi Question guifg=springgreen ctermfg=green
-:hi Search guibg=#a28f1a guifg=#90a29a cterm=none ctermfg=grey ctermbg=blue
+:hi Search guibg=#eee09f guifg=#ee4740 cterm=none ctermfg=grey ctermbg=blue
 :hi SpecialKey guifg=yellowgreen ctermfg=darkgreen
 :hi StatusLine guibg=#c2bfa5 guifg=black gui=none cterm=bold,reverse
 :hi StatusLineNC guibg=#c2bfa5 guifg=grey40 gui=none cterm=reverse
@@ -28,8 +28,8 @@ let colors_name = "obsidian"
 :hi Statement guifg=CornflowerBlue ctermfg=lightblue
 :hi Visual gui=none guifg=khaki guibg=olivedrab cterm=reverse
 :hi WarningMsg guifg=salmon ctermfg=1
-:hi String guifg=SkyBlue ctermfg=darkcyan
-:hi Comment term=bold ctermfg=11 guifg=#7ca29f
+:hi String guifg=#75ee8f ctermfg=darkcyan
+:hi Comment term=bold ctermfg=11 guifg=#976e4c
 :hi Constant guifg=#ffa0a0 ctermfg=brown
 :hi Special guifg=#5f7aa2 ctermfg=brown
 :hi Identifier guifg=salmon ctermfg=red
@@ -40,7 +40,7 @@ let colors_name = "obsidian"
 :hi Type guifg=CornflowerBlue ctermfg=2
 :hi Function guifg=navajowhite ctermfg=brown
 :hi Structure guifg=green ctermfg=green
-:hi LineNr guifg=grey50 ctermfg=3
+:hi LineNr guifg=#719788 ctermfg=3
 :hi Ignore guifg=grey40 cterm=bold ctermfg=7
 :hi Todo guifg=orangered guibg=yellow2
 :hi Directory ctermfg=darkcyan
